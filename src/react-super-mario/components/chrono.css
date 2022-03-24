@@ -1,0 +1,22 @@
+.Chrono {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px #656565;
+
+  }
+  .Chrono h1 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 10px 40px;
+    background-color: rgba(51, 178, 202, .3);
+    font-size: 40px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    z-index: 10;
+  }
+
+
+ 

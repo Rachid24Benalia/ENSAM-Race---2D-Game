@@ -1,0 +1,26 @@
+.absoluteFill, .ReactSuperMario .Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+}
+
+.ReactSuperMario .scene1 {
+  z-index: 1;
+  background-image:  url("../../assets/backgrounds/ecole.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-position 150ms ease-out;
+  transition: background 500ms ;
+}
+
+.ReactSuperMario .scene2 {
+  z-index: 1;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-position 150ms ease-out;
+  transition: background 500ms ;
+}

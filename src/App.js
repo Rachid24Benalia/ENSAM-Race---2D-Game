@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import SuperMarioReact from './react-super-mario';
+import StartScreen from './react-super-mario/components/StartScreen';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+	  
+	  let isGameStarted=false;
+    	if (isGameStarted) {
+		return (
+	      <SuperMarioReact />
+        );
+	    } 
+     else {
+		    return <StartScreen/>
+	    }
+    
+  }
 }
 
 export default App;

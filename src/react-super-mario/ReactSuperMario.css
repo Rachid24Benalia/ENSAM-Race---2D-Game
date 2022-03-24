@@ -1,0 +1,10 @@
+@import url(../../node_modules/toastr/build/toastr.min.css);
+@import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");
+
+body {
+  overflow: hidden;
+}
+.ReactSuperMario {
+  overflow-x: hidden;
+  width: 100%; 
+}

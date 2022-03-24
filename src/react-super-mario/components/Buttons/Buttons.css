@@ -1,0 +1,17 @@
+.ReactSuperMario .ButtonInfo {
+  background-color: red;
+  border: 1px solid red;
+  background-position: -164px 334px;
+  width: 28px;
+  height: 28px; 
+}
+
+
+/* 
+le style pour le bonus
+plus il fallait changer dans la classe touchable js bottom 20px
+background: url("../../assets/tiles/certif.png");
+background-size: 100px 100px;
+width: 100px;
+height: 100px; 
+border: 1px solid red; */
